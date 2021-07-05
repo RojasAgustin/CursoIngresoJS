@@ -1,9 +1,12 @@
-/*
+/* Rojas Agustin DIV D
 Debemos lograr tomar el importe por ID.
 Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	alert("ok");
+	var importe;
+	importe = parseInt(txtIdImporte.value);
+	importe -= importe * (25/100);
+	txtIdResultado.value = importe; 
 }
