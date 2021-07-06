@@ -6,7 +6,14 @@ en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
 	var importe;
-	importe = parseInt(txtIdImporte.value);
-	importe -= importe * (25/100);
-	txtIdResultado.value = importe; 
+    var resultado;
+    var descuento;
+	importe = txtIdImporte.value;
+	importe = parseFloat(importe);
+	descuento = importe * (25/100);
+	resultado = importe - descuento;
+    txtIdResultado.value = resultado.toFixed(2);
 }
+
+
+

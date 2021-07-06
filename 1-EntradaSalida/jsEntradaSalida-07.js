@@ -7,34 +7,50 @@ function sumar()
 {	
 	var numero1;
     var numero2;
-    numero1 = parseInt(txtIdNumeroUno.value);
-    numero2 = parseInt(txtIdNumeroDos.value);
-    alert("La suma es: " + (numero1 + numero2));	
+    var suma;
+    numero1 = txtIdNumeroUno.value;
+    numero2 = txtIdNumeroDos.value;
+    numero1 = parseInt(numero1);
+    numero2 = parseInt(numero2);
+    suma = numero1 + numero2;
+    alert("La suma es: " + suma);	
 }
 
 function restar()
 {
 	var numero1;
     var numero2;
-    numero1 = parseInt(txtIdNumeroUno.value);
-    numero2 = parseInt(txtIdNumeroDos.value);
-    alert("La resta es: " + (numero1 - numero2));
+    var resta;
+    numero1 = txtIdNumeroUno.value;
+    numero2 = txtIdNumeroDos.value;
+    numero1 = parseInt(numero1);
+    numero2 = parseInt(numero2);
+    resta = numero1 - numero2;
+    alert("La resta es: " + resta);
 }
 function multiplicar()
 { 
 	var numero1;
     var numero2;
-    numero1 = parseInt(txtIdNumeroUno.value);
-    numero2 = parseInt(txtIdNumeroDos.value);
-    alert("La multiplicacion es: " + (numero1 * numero2));
+    var multiplicacion;
+    numero1 = txtIdNumeroUno.value;
+    numero2 = txtIdNumeroDos.value;
+    numero1 = parseInt(numero1);
+    numero2 = parseInt(numero2);
+    multiplicacion = numero1 * numero2;
+    alert("La multiplicacion es: " + multiplicacion);
 }
 
 function dividir()
 {
 	var numero1;
     var numero2;
-    numero1 = parseInt(txtIdNumeroUno.value);
-    numero2 = parseInt(txtIdNumeroDos.value);
-    alert("La division es: " + (numero1 / numero2));
+    var division;
+    numero1 = txtIdNumeroUno.value;
+    numero2 = txtIdNumeroDos.value;
+    numero1 = parseInt(numero1);
+    numero2 = parseInt(numero2);
+    division = numero1 / numero2;
+    alert("La division es: " + division);
 }
 
